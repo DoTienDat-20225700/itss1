@@ -3,7 +3,7 @@ from PyQt5.QtGui import QPainter, QPen, QColor
 from PyQt5.QtCore import Qt, QRect, pyqtSignal
 
 class ScreenCropper(QWidget):
-    crop_finished = pyqtSignal(QRect)      # gởi rect
+    crop_finished = pyqtSignal(QRect)      # gửi rect
     crop_done = pyqtSignal()               # báo cho main để hiện lại
 
     def __init__(self):
